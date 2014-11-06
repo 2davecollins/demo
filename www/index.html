@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=10" /> 
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+<!--<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1"/>-->
+<!--<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />-->
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
+        
+    <meta name="msapplication-tap-highlight" content="no" />
+    
+     <script src="js/jQuery/jquery-1.11.1.min.js"></script>
+     <script src="js/jQuery/jquery-ui.min.js"></script>
+     <script src="js/jQuery/jquery.tmpl.min.js"></script>
+     <script src="js/jQuery/jstorage.min.js"></script>
+     <script src="js/jQuery/jquery.mobile-1.3.2.min.js"></script>
+      <script src="js/jQuery/jquery.jsonp-2.4.0.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="js/jQuery/jquery-ui.css">
+      <link rel="stylesheet" type="text/css" href="js/jQuery/jquery.mobile-1.3.2.min.css">
+      <link rel="stylesheet" type="text/css" href="css/index.css" />
+      <!-- production code ensure latest minified code used -->
+      <link rel="stylesheet" type="text/css" href="css/override.css">
+      <!--<link rel="stylesheet" type="text/css" href="css/override-min.css">-->
+      
+      <script type="text/javascript" src="js/jQuery/flot/jquery.flot.js"></script>
+      <script type="text/javascript" src="js/jQuery/flot/jquery.flot.time.js"></script>   
+      <script type="text/javascript" src="js/jQuery/flot/jquery.flot.symbol.js"></script>
+      <script type="text/javascript" src="js/jQuery/flot/jquery.flot.resize.js"></script>
+      <script type="text/javascript" src="js/jQuery/flot/excanvas.min.js"></script>
+   
+   <title>Demo</title>
+  </head>
+  <div data-role="page" id="pageone" data-theme="b">
+    <div data-role="header" data-theme="b">
+      <h1>Header</h1>
+    </div>
+    <div data-role="content" data-theme="b">
+    <h1>Demo page</h1>
+    
+    </div>
+    <div data-role="footer" data-theme="b" data-position="fixed">
+     <div data-role="navbar">
+     <ul>
+     <li><a href="#pageone">page one</a></li>
+     <li><a href="#pagetwo">page one</a></li>
+     <li><a href="#pagethree">page one</a></li>
+     </ul>
+     </div>
+    </div>
+  </div>
+  
+  <div data-role="page" id="pagetwo" data-theme="b">
+    <div data-role="header" data-theme="b">
+      <h1>Header</h1>
+    </div>
+    <div data-role="content" data-theme="b">
+    <h1>Demo page 2</h1>
+    
+    </div>
+    <div data-role="footer" data-theme="b" data-position="fixed">
+     <div data-role="navbar">
+     <ul>
+     <li><a href="#pageone">page one</a></li>
+     <li><a href="#pagetwo">page one</a></li>
+     <li><a href="#pagethree">page one</a></li>
+     </ul>
+     </div>
+    </div>
+  </div>
+  
+  <div data-role="page" id="pagethree" data-theme="b">
+    <div data-role="header" data-theme="b">
+      <h1>Header</h1>
+    </div>
+    <div data-role="content" data-theme="b">
+    <h1>Demo page 3</h1>
+    
+    </div>
+    <div data-role="footer" data-theme="a" data-position="fixed">
+     <div data-role="navbar">
+     <ul>
+     <li><a href="#pageone">page one</a></li>
+     <li><a href="#pagetwo">page one</a></li>
+     <li><a href="#pagethree">page one</a></li>
+     </ul>
+     </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="cordova.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+  <script type="text/javascript">
+       app.initialize();
+     </script>
+</body>
+</html>
